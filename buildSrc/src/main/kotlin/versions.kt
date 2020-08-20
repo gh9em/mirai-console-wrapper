@@ -22,6 +22,12 @@ object Versions {
         
         const val io = "0.1.16"
         const val coroutinesIo = "0.1.16"
+        const val atomicFU = "0.14.4"
+    }
+
+    object Logging {
+        const val slf4j = "1.7.30"
+        const val log4j = "2.13.3"
     }
 }
 
