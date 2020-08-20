@@ -41,7 +41,7 @@ dependencies {
 
     // implementation(kotlin("script-runtime"))
     runtimeOnly(kotlinx("serialization-core", Versions.Kotlin.serialization))
-    runtimeOnly(kotlinx("serialization-runtime", Versions.Kotlin.serialization))  // mirai-core-qqandroid-jvm depend
+    // runtimeOnly(kotlinx("serialization-runtime", Versions.Kotlin.serialization))  // mirai-core-qqandroid-jvm depend
     runtimeOnly(kotlinx("serialization-protobuf", Versions.Kotlin.serialization))  // mirai-core-qqandroid-jvm depend
     runtimeOnly(kotlinx("io", Versions.Kotlin.io)) {
       exclude("org.jetbrains.kotlin", "kotlin-stdlib")
