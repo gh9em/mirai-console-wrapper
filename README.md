@@ -1,11 +1,11 @@
-# (deprecated)
-此项目已停止维护，请使用 https://github.com/LXY1226/MiraiOK
+# ~~(deprecated)~~
+~~此项目已停止维护，请使用 https://github.com/LXY1226/MiraiOK~~
 
 # mirai-console-wrapper
 [mirai-console](https://github.com/mamoe/mirai-console) 启动器.
 
-**[下载(download)](https://github.com/mamoe/mirai-console-wrapper/releases)**  
-请下载最新的 `mirai-console-wrapper-x.x.x.jar`
+**[下载(download)](https://github.com/gh9em/mirai-console-wrapper/releases)**  
+请下载最新的 `mirai-console-wrapper--all.jar`
 
 #### 命令行参数
 ```
