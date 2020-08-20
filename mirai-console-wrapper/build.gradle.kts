@@ -10,6 +10,7 @@ apply(plugin = "com.github.johnrengelman.shadow")
 tasks.withType<com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar> {
     manifest {
         attributes["Main-Class"] = "net.mamoe.mirai.console.wrapper.WrapperMain"
+        attributes["Class-Path"] = "content/mirai-core-1.2.1.jar content/mirai-core-jvm-1.2.1.jar content/mirai-core-qqandroid-1.2.1.jar content/mirai-core-qqandroid-jvm-1.2.1.jar"
     }
 }
 
