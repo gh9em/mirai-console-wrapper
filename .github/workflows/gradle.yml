@@ -50,8 +50,8 @@ jobs:
         # The URL for uploading assets to the release
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         # The path to the asset you want to upload
-        asset_path: mirai-console-wrapper/build/libs/mirai-console-wrapper-1.4.0.jar
+        asset_path: mirai-console-wrapper/build/libs/mirai-console-wrapper-1.4.0-all.jar
         # The name of the asset you want to upload
-        asset_name: mirai-console-wrapper-${{ steps.create_release.outputs.tag }}.jar
+        asset_name: mirai-console-wrapper-${{ steps.create_release.outputs.tag }}-all.jar
         # The content-type of the asset you want to upload. See the supported Media Types here: https://www.iana.org/assignments/media-types/media-types.xhtml for more information
         asset_content_type: application/jar
